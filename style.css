@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     margin: 0;
     padding: 0;
@@ -12,10 +16,16 @@ body {
 .buy-now {
     background: #262626;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 25px;
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
+    border: 2px solid #262626;
+    transition: .5s ease-in-out ;
+}
+.buy-now:hover {
+    color: #262626;
+    background: #fff;
 }
 
 .banner-buy-now {
@@ -63,4 +73,110 @@ p.description {
 
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
+
+.cate-watch {
+    background: linear-gradient(#FF9C35, #FFD019);
+}
+.cate-bag {
+    background: linear-gradient(#FF589B, #FF136F);
+}
+
+.cate-shoes {
+    background: linear-gradient(#4289FF, #07F8C3);
+}
+.single-category {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+h2.category-title {
+    font-weight: 600;
+    font-size: 50px;
+    color: #fff;
+}
+
+.section-title h2 {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+.card-body {
+    text-align: center;
+    padding: 0 20px;
+    padding-bottom: 1.75rem;
+}
+section.products {
+    background: #F8F8F8;
+    padding: 60px 0;
+}
+
+h5.card-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-footer {
+    background: #fff;
+    border: none;
+    text-align: center;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2.5px 2.5px 10px lightgrey;
+}
+
+p.product-price {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+img.card-img-top {
+    padding: 15px;
+}
+
+input[type="text"] {
+    height: 50px;
+    padding: 0 15px;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid lightgrey !important;
+}
+
+input[type="submit"] {
+    height: 50px;
+    width: 40%;
+    background: linear-gradient(#FF589B, #FF136F) !important;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 10px;
+}
+
+input[type="text"], input[type="submit"] {
+    margin: 10px 0;
+    border: none;
+}
+
+
+section.subscribe.container h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+section.subscribe.container {
+    margin-top: 70px;
+    padding: 60px;
+    background: #FEEAE9;
+    border-radius: 10px;
 }
